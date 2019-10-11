@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<body>
+	<h1> Register</h1>
+	<form>
+		<div>
+			<label for id="fname">First Name: </label>
+			<input id="fname" type="text" name="fname" required>
+			<label for id="lname">Last Name: </label>
+			<input id="lname" type="text" name="lname" required>
+		</div>
+		<div>
+				<label for="male">Male</label>
+				<input id="male" type="radio" name="gender">
+				<label for="female">Female</label>
+				<input id="female" type="radio" name="gender">
+				<label for="other">Other</label>
+				<input id="other" type="radio" name="gender">
+		</div>
+		<div>
+				<label for id="email">Email: </label>
+				<input id="email" type="email" name="email">
+				<label for id="password">Password: </label>
+				<input id="password" type="password" name="password" required minlength="5" maxlength="10">
+		</div>
+		<div>
+				<label for id="birthday"> Birthday: </label>
+				<select>
+					<option>Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+					<option>Apr</option>
+					<option>May</option>
+					<option>Jun</option>
+				</select>
+				<select>
+					<option>Day</option>
+					<option>Mon</option>
+					<option>Tue</option>
+					<option>Wed</option>
+					<option>Thu</option>
+					<option>Fri</option>
+					<option>Sat</option>
+					<option>Sun</option>
+				</select>
+				<select>
+					<option>Year</option>
+					<option>2017</option>
+					<option>2018</option>
+					<option>2019</option>
+					<option>2020</option>
+				</select>
+		</div>
+		<div>
+			I agree to the terms and conditions
+			<input type="checkbox" name=""> 
+		</div>
+		<input type="submit" name="">
+	</form>
+</body>
+</html>
