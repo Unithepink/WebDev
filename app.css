@@ -1,0 +1,33 @@
+body {
+	
+/*	background: url(https://image.freepik.com/free-vector/abstract-dynamic-pattern-wallpaper-vector_53876-59131.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	/*background: url(https://images3.alphacoders.com/975/thumb-1920-975999.png);*/
+	background: pink;
+	border: black 5px solid;
+
+}
+
+h1 {
+	color: #FF8000;
+/*	border-color: black;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: black 5px solid;
+}
+
+h4 {
+	color:#d61a8b;
+	background: rgb(255, 100, 80);
+}
+
+li {
+	color: rgba(33, 235, 191, .8);
+}
+
+table {
+	color: rgb(33, 235, 150);
+	background: rgba(20, 200, 150, .3);
+}

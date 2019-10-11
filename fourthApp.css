@@ -1,0 +1,61 @@
+body {
+	/*background: gray;*/
+	background: url(https://image.freepik.com/free-vector/abstract-dynamic-pattern-wallpaper-vector_53876-59131.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*color:pink;*/
+}
+
+li {
+
+	border: 2px green solid;
+
+}
+
+#breathe { 
+		color: blue; 
+		background: red;
+	}
+
+#eat, #yoga{
+
+		color:pink;
+}
+
+.vital { 
+		color: blue; 
+		background: yellow;
+		text-decoration: line-through;
+	}
+
+
+/*---------------------------*/
+
+/** {
+	border: 1px lightgray;
+}*/
+
+/*ul li {
+	
+}*/
+
+/*input[type='checkbox']{
+	background-color: turquoise;
+}*/
+
+li:nth-of-type(1){
+	background-color: turquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
